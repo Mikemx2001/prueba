@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página con Imagen Centrada</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f5f5dc; /* Color crema */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ocupa toda la altura de la ventana */
+        }
+        img {
+            width: 300px;
+            height: 400px;
+            object-fit: cover; /* Ajusta el contenido de la imagen si no tiene las proporciones exactas */
+            border-radius: 10px; /* Opcional: bordes redondeados */
+        }
+    </style>
+</head>
+<body>
+    <img src="imagen1.jpg" alt="Imagen centrada">
+</body>
+</html>
